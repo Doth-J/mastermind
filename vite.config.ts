@@ -40,6 +40,7 @@ export default defineConfig({
       },
     ],
   },
+  base: "/mastermind/",
   plugins: [react(), tailwindcss()],
   server: { port: 4000 },
 });
