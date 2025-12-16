@@ -17,7 +17,7 @@ export function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-4 justify-center items-center fade-in">
       <div className="flex flex-col gap-2 justify-center items-center">
-        <img src="/logo.svg" width={100} className="mb-4" />
+        <img src="./logo.svg" width={100} className="mb-4" />
         <div className="grid grid-cols-10 place-items-center gap-1 text-2xl text-slate-200">
           <div>M</div>
           <div>A</div>
