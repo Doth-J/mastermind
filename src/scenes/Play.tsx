@@ -141,7 +141,7 @@ export function Play() {
           />
           <div className="w-full flex items-center gap-4">
             <button
-              className="w-full rounded-md flex gap-2 items-center justify-center bg-emerald-600/25 px-2 py-3 text-sm tracking-wider font-bold text-white ring ring-emerald-600/10 hover:bg-emerald-600/30 hover:ring-emerald-600/30 disabled:bg-gray-600/10 disabled:ring-gray-500/30"
+              className="w-full rounded-md flex gap-2 items-center justify-center bg-emerald-600/25 p-3 text-sm tracking-wider font-bold text-white ring ring-emerald-600/10 hover:bg-emerald-600/30 hover:ring-emerald-600/30 disabled:bg-gray-600/10 disabled:ring-gray-500/30"
               onClick={handleGuess}
               disabled={game.current.length != game.code.length}
             >
