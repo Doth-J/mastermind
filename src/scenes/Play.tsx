@@ -3,7 +3,7 @@ import { CodeRow, CodePeg } from "@components/Code";
 import { createCode, GameValues, getCodeSize } from "@contexts/GameContext";
 import useGame from "@hooks/useGame";
 import { useRef } from "react";
-import { FaArrowLeft, FaCheck, FaTrash } from "react-icons/fa";
+import { FaArrowLeft, FaCheck } from "react-icons/fa";
 
 export function Play() {
   const previousRef = useRef<HTMLDivElement | null>(null);

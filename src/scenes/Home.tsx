@@ -1,7 +1,6 @@
-import Header from "@components/Header";
 import { GameScene } from "@contexts/GameContext";
 import useGame from "@hooks/useGame";
-import { FaBookReader, FaPlay } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 import { FaGear } from "react-icons/fa6";
 
 export function Home() {
