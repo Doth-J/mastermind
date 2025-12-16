@@ -86,7 +86,10 @@ export function Play() {
     ];
 
     if (previousRef.current) {
-      previousRef.current.scrollIntoView({ behavior: "smooth" });
+      previousRef.current.scrollTo({
+        top: previousRef.current.scrollHeight,
+        behavior: "smooth",
+      });
     }
 
     setGame((prev) => ({
