@@ -4,7 +4,7 @@ import { Settings } from "@scenes/Settings";
 
 export default function App() {
   return (
-    <div className="w-full h-screen bg-linear-to-t from-slate-800 to-slate-900/90 p-4 flex justify-center">
+    <div className="w-full h-dvh p-4 flex justify-center">
       <Home />
       <Play />
       <Settings />
